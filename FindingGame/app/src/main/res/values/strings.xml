@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FindingGame</string>
+    <string name="instructionTitle">How to Play</string>
+    <string name="headerBody">Find the Image</string>
+    <string name="instructionBody">Tap Any</string>
+
+</resources>
