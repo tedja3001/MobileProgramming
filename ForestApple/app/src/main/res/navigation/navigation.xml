@@ -26,18 +26,4 @@
         android:name="com.github.sutedjathehoping.forestapple.GameFragment"
         android:label="The Legendary Apple Tree"
         tools:layout="@layout/fragment_game" />
-    <fragment
-        android:id="@+id/endingsFragment"
-        android:name="com.github.sutedjathehoping.forestapple.EndingsFragment"
-        android:label="Unlocked Endings"
-        tools:layout="@layout/fragment_endings" >
-        <action
-            android:id="@+id/action_endingsFragment_to_endingDisplay"
-            app:destination="@id/endingDisplay" />
-    </fragment>
-    <fragment
-        android:id="@+id/endingDisplay"
-        android:name="com.github.sutedjathehoping.forestapple.EndingDisplay"
-        android:label="View Ending"
-        tools:layout="@layout/fragment_ending_display" />
 </navigation>
